@@ -1,5 +1,8 @@
 package groovy
 
+/**
+ * groovy的柯里化
+ */
 def test = { a,b,c -> a+b+c }      
 def testfun = test.curry(10)   
 println testfun(3, 4)       
